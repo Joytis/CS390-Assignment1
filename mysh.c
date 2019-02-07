@@ -18,17 +18,7 @@
 
 #define ARRAY_ELEMS(x) (sizeof(x) / sizeof(x[0]))
 #define STREQL(x, y) (strcmp(x, y) == 0)
-
-const char* SH_CARAT = "$ ";
-const char* PS1_CARAT = "> ";
-
-// Yeah, Yeah. I know. Globals. This is a small program. 
-const char* prompt_carat;
-
-void prompt_user()
-{
-	printf("%s", prompt_carat);
-}
+#define USAGE(str) (printf("Usage: %s\n", str))
 
 // Simple storage for command line args. 
 typedef struct
@@ -37,6 +27,29 @@ typedef struct
 	char* buffer;
 	char** argv;
 } cmd_args;
+
+const char* SH_CARAT = "$ ";
+const char* PS1_CARAT = "> ";
+
+const char* ECHO_USAGE = "echo [-n] [STRINGS_TO_PRINT] | Echo back some stuff.";
+const char* PS1_USAGE = "PS1 | Change the carat to a >";
+const char* SH_USAGE = "sh | I mean, do you think I'd add a PS1 command without an sh? Back to $";
+const char* CAT_USAGE = "cat [FILE_TO_CAT] | Grab a file, print it into the shell. Simple.";
+const char* CP_USAGE = "cp [FILE_TO_COPY] [NEW_FILE_LOCATION] | Copy a file. To another file.";
+const char* RM_USAGE = "rm [FILE_TO_REMOVE] | Copy a file. No -r. Because I don't trust myself.";
+const char* MKDIR_USAGE = "mkdir [DIR_TO_CREATE] | Make a directory if it doesn't exist.";
+const char* RMDIR_USAGE = "rmdir [DIR_TO_REMOVE] | Remove a directory if  exists.";
+const char* EXIT_USAGE = "exit | You're done with my shell, and don't like it anymore :c.";
+
+// Yeah, Yeah. I know. Globals. This is a small program. 
+const char* prompt_carat;
+
+
+void prompt_user()
+{
+	printf("%s", prompt_carat);
+}
+
 
 // Parse a line into posix cmd args. 
 cmd_args split_into_args(char* line)
@@ -106,9 +119,9 @@ bool directory_exists(char* dirname)
 //==========================================
 
 // Echo strings that come after echo. 
-void cmd_echo(int argc, char** argv, char* line) {
+void cmd_echo(int argc, char** argv) {
 	if(argc < 2) {
-		printf("Please provide a string to echo. or options.\n");
+		USAGE(ECHO_USAGE);
 	    return;
 	}
 
@@ -133,7 +146,7 @@ void cmd_echo(int argc, char** argv, char* line) {
 	}
 
 	if(argv_index == argc) {
-		printf("Please provide a string to echo. only options entered.\n");
+		USAGE(ECHO_USAGE);
 	    return;
 	}
 
@@ -147,20 +160,20 @@ void cmd_echo(int argc, char** argv, char* line) {
 }
 
 // Change the carat to the ps1 carat
-void cmd_PS1(int argc, char** argv, char* line) {
+void cmd_PS1(int argc, char** argv) {
 	prompt_carat = PS1_CARAT;
 }
 
 // Change carat back to the sh carat
-void cmd_sh(int argc, char** argv, char* line) {
+void cmd_sh(int argc, char** argv) {
 	prompt_carat = SH_CARAT;
 }
 
 // print a file out to the screen. 
-void cmd_cat(int argc, char** argv, char* line) {
+void cmd_cat(int argc, char** argv) {
 	// Preconditions
 	if(argc != 2) {
-		printf("Usage: cat [FILE_NAME].\n");
+		USAGE(CAT_USAGE);
 	    return;
 	}
 
@@ -186,16 +199,16 @@ void cmd_cat(int argc, char** argv, char* line) {
 	}
 
 	fclose(file);
-    if (line != NULL) {
-        free(line);
+    if (read_line != NULL) {
+        free(read_line);
     }
 	printf("\n");
 }
 
 // Copy a file from one location to another. 
-void cmd_cp(int argc, char** argv, char* line) {
+void cmd_cp(int argc, char** argv) {
 	if(argc != 3) {
-		printf("Usage: cp [FROM_FILE] [TO_FILE].\n");
+		USAGE(CP_USAGE);
 	    return;
 	}
 
@@ -242,9 +255,9 @@ void cmd_cp(int argc, char** argv, char* line) {
 }
 
 // Delete a file. 
-void cmd_rm(int argc, char** argv, char* line) {
+void cmd_rm(int argc, char** argv) {
 	if(argc != 2) {
-		printf("Usage: rm [FILE_TO_REMOVE].\n");
+		USAGE(RM_USAGE);
 	    return;
 	}
 
@@ -261,9 +274,9 @@ void cmd_rm(int argc, char** argv, char* line) {
 }
 
 // Makes a directory. 
-void cmd_mkdir(int argc, char** argv, char* line) {
+void cmd_mkdir(int argc, char** argv) {
 	if(argc != 2) {
-		printf("Usage: mkdir [DIR_TO_CREATE].\n");
+		USAGE(MKDIR_USAGE);
 	    return;
 	}
 
@@ -280,9 +293,9 @@ void cmd_mkdir(int argc, char** argv, char* line) {
 }
 
 // Deletes a directory. 
-void cmd_rmdir(int argc, char** argv, char* line) {
+void cmd_rmdir(int argc, char** argv) {
 	if(argc != 2) {
-		printf("Usage: rmdir [DIR_TO_REMOVE].\n");
+		USAGE(RMDIR_USAGE);
 	    return;
 	}
 
@@ -302,40 +315,29 @@ void cmd_rmdir(int argc, char** argv, char* line) {
 // MAIN BOOTSTRAP
 //==========================================
 
-void run_shell(int argc, char** argv, char* line) {
+void run_shell(int argc, char** argv) {
+	// No command. 
 	if(argc < 1) return;
 
-	// Check arguments
+	// Run program based on command arg
 	char* command = argv[0];
-	if(STREQL(command, "echo")) { 
-		cmd_echo(argc, argv, line); 
-	}
-	else if(STREQL(command, "PS1")) { 
-		cmd_PS1(argc, argv, line); 
-	}
-	else if(STREQL(command, "sh")) { 
-		cmd_sh(argc, argv, line); 
-	}
-	else if(STREQL(command, "cat")) { 
-		cmd_cat(argc, argv, line); 
-	}
-	else if(STREQL(command, "cp")) { 
-		cmd_cp(argc, argv, line); 
-	}
-	else if(STREQL(command, "rm")) { 
-		cmd_rm(argc, argv, line); 
-	}
-	else if(STREQL(command, "mkdir")) { 
-		cmd_mkdir(argc, argv, line); 
-	}
-	else if(STREQL(command, "rmdir")) { 
-		cmd_rmdir(argc, argv, line); 
-	}
-	else if(STREQL(command, "exit")) { 
-		exit(EXIT_SUCCESS);
-	}
+	if(STREQL(command, "echo")) 		{ cmd_echo	(argc, argv); }
+	else if(STREQL(command, "PS1")) 	{ cmd_PS1	(argc, argv); }
+	else if(STREQL(command, "sh")) 		{ cmd_sh	(argc, argv); }
+	else if(STREQL(command, "cat")) 	{ cmd_cat	(argc, argv); }
+	else if(STREQL(command, "cp")) 		{ cmd_cp	(argc, argv); }
+	else if(STREQL(command, "rm")) 		{ cmd_rm	(argc, argv); }
+	else if(STREQL(command, "mkdir")) 	{ cmd_mkdir	(argc, argv); }
+	else if(STREQL(command, "rmdir")) 	{ cmd_rmdir	(argc, argv); }
+	else if(STREQL(command, "exit")) 	{ exit		(EXIT_SUCCESS); }
 	else {
-		printf("Unrecognized Command\n");
+		printf("Program Usage:\n\n"
+			   "Hey guys. This is some simple stuff. Ezpz. Good ole simple shell.\n"
+			   "Here's the commands: \n"
+			   "    - %s\n    - %s\n    - %s\n    - %s\n    - %s\n"
+			   "    - %s\n    - %s\n    - %s\n    - %s\n",
+			   ECHO_USAGE, PS1_USAGE, SH_USAGE, CAT_USAGE, CP_USAGE,
+			   RM_USAGE, MKDIR_USAGE, RMDIR_USAGE, EXIT_USAGE);
 	}
 
 }
@@ -354,7 +356,8 @@ int main(int argc, char** argv) {
         // Parse line as a set of arguments.
         cmd_args args = split_into_args(line);
 
-        run_shell(args.argc, args.argv, line);
+        // Run with given args
+        run_shell(args.argc, args.argv);
 
 		// Free resources. 
 		free_cmd_args(&args);
