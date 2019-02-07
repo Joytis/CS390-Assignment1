@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Wsl Gcc",
+			"cmd" : ["bash", "-c", "gcc main.c -o mysh"],
+			"shell": true,
+		    "working_dir": ".",
+		}
+	]
+}

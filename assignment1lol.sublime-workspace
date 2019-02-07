@@ -1,0 +1,1270 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mainLight",
+				"mainLight"
+			],
+			[
+				"_Blend",
+				"_BlendOffset\t(triplanarPotionInput.hlsl)"
+			],
+			[
+				"blend",
+				"blendExponent"
+			],
+			[
+				"TEXTURE",
+				"TEXTURE2D(_MainTex"
+			],
+			[
+				"Triplan",
+				"TriplanarTextures"
+			],
+			[
+				"mainLigh",
+				"mainLight.color"
+			],
+			[
+				"diffuse",
+				"diffuseIntensity"
+			],
+			[
+				"specular",
+				"specularColor"
+			],
+			[
+				"virtual",
+				"virtualUvX"
+			],
+			[
+				"specul",
+				"specularIntensitySmooth"
+			],
+			[
+				"ToonLightin",
+				"ToonLighting.hlsl"
+			],
+			[
+				"attenu",
+				"attenuatedLightColor"
+			],
+			[
+				"lightWei",
+				"lightWeighting"
+			],
+			[
+				"Ser",
+				"SerializeField"
+			],
+			[
+				"Check",
+				"CheckTrigger"
+			],
+			[
+				"AddT",
+				"AddTime"
+			],
+			[
+				"remo",
+				"Remove(U key)\tbool"
+			],
+			[
+				"Current",
+				"CurrentTime"
+			],
+			[
+				"test_grid",
+				"test_grid_asset"
+			],
+			[
+				"Load",
+				"LoadPrefabContentsIntoPreviewScene(string prefabPath, Scene scene)\tvoid"
+			],
+			[
+				"Actor",
+				"ActorMovementUnityTests"
+			],
+			[
+				"Add",
+				"AddStates\t(FiniteStateMachine.cs)"
+			],
+			[
+				"SetTri",
+				"SetTrigger"
+			],
+			[
+				"Trigger",
+				"TestTrigger\tTestTrigger"
+			],
+			[
+				"Cont",
+				"Contains\t(FiniteStateMachine.cs)"
+			],
+			[
+				"remove",
+				"Remove(U item)\tbool"
+			],
+			[
+				"AddTran",
+				"AddTransitionAll"
+			],
+			[
+				"ToUnit",
+				"ToUInt32(IFormatProvider provider)\tuint"
+			],
+			[
+				"_for",
+				"_forgivenInputTimeActive"
+			],
+			[
+				"activa",
+				"activationTime"
+			],
+			[
+				"lightAttackI",
+				"lightAttackInputForgiveness"
+			],
+			[
+				"curre",
+				"currentTime"
+			],
+			[
+				"curren",
+				"currentTime\t(Timer.cs)"
+			],
+			[
+				"Tab",
+				"TabGroup\t(PlayerController.cs)"
+			],
+			[
+				"_mov",
+				"_movDirection"
+			],
+			[
+				"Lightweight",
+				"LightweightRenderPipelineAsset\tLightweightRenderPipelineAsset"
+			],
+			[
+				"EditorUtili",
+				"EditorUtilities\t(EditorUtilities.cs)"
+			],
+			[
+				"Unit",
+				"UNITY_EDITOR\t(PlayerController.cs)"
+			],
+			[
+				"Odin",
+				"OdinInspector\t(CameraShake2D.cs)"
+			],
+			[
+				"Proper",
+				"PropertyTooltip(\"The"
+			],
+			[
+				"Get",
+				"GetEnchantmentDataInstances"
+			],
+			[
+				"Shader",
+				"ShaderNonsense"
+			],
+			[
+				"light",
+				"lightingData"
+			],
+			[
+				"Color",
+				"ColorCauldron\t(GameDirectionalLightingData.cs)"
+			],
+			[
+				"native",
+				"nativeResolution"
+			],
+			[
+				"PixelP",
+				"PixelPerfectCamera"
+			],
+			[
+				"PixelPer",
+				"PixelPerfectCamera\t(PixelPerfectCamera.cs)"
+			],
+			[
+				"Builtin",
+				"BuiltinRenderTextureType"
+			],
+			[
+				"m_b",
+				"m_BlitMaterial"
+			],
+			[
+				"downscale",
+				"downscaleRT"
+			],
+			[
+				"Clear",
+				"ClearFlag"
+			],
+			[
+				"RenderBuf",
+				"RenderBufferStoreAction"
+			],
+			[
+				"color",
+				"colorRT"
+			],
+			[
+				"DownscalePixel",
+				"DownscalePixelBuffer\t(LightweightForwardRenderer.cs)"
+			],
+			[
+				"Execute",
+				"ExecuteCommandBuffer"
+			],
+			[
+				"Cam",
+				"CameraTarget"
+			],
+			[
+				"desc",
+				"descriptor"
+			],
+			[
+				"depthBu",
+				"depthBufferBits"
+			],
+			[
+				"RenderTe",
+				"RenderTextureDescriptor"
+			],
+			[
+				"CommandBuf",
+				"CommandBufferPool"
+			],
+			[
+				"camera",
+				"cameraData"
+			],
+			[
+				"colorAtta",
+				"colorAttachmentHandle"
+			],
+			[
+				"colorA",
+				"colorAttachmentHandle"
+			],
+			[
+				"Camera",
+				"CameraData"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"key bin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"unity",
+				"Set Syntax: Unity ShaderLab"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"uniy",
+				"Set Syntax: UnityShader"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"update",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"terminal",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"hlsl",
+				"Set Syntax: HLSL"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"locate",
+				"File: Locate"
+			],
+			[
+				"name",
+				"File: Copy Name"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new view",
+				"File: New View into File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"HLSL",
+				"Set Syntax: High Level SL"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"new ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new file ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"path",
+				"File: Copy Relative Path To Project"
+			],
+			[
+				"copy path",
+				"File: Copy Path"
+			],
+			[
+				"copy URL",
+				"File: Copy URL"
+			],
+			[
+				"file",
+				"File: Copy URL"
+			],
+			[
+				"fix us",
+				"OmniSharpSublime: Fix Usings"
+			],
+			[
+				"1",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in View"
+			],
+			[
+				"new file relat",
+				"File: New File Relative to Current View"
+			],
+			[
+				"convert spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"fi us",
+				"OmniSharpSublime: Fix Usings"
+			],
+			[
+				"next code",
+				"OmniSharpSublime: Next Code Issue"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"deltee",
+				"File: Delete"
+			],
+			[
+				"C#",
+				"Set Syntax: C#"
+			],
+			[
+				"reload",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"git checkout ",
+				"Git: Checkout Current File"
+			],
+			[
+				"git reset",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"open",
+				"Terminal: Open"
+			],
+			[
+				"git graph",
+				"Git: Graph All"
+			],
+			[
+				"termianl settings",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"settings terminal",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"colro ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 350.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/clark/Documents/Programming/CS390/assginemtn1"
+	],
+	"file_history":
+	[
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/TriplanarPotion/shader_lwrpTriplanarPotion.shader",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/LitPotionLighting.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/LitPotion/shader_lwrpLitPotion.shader",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/TriplanarPotion/triplanarPotionInput.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/LitPotion/litPotionInput.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/TriplanarPotion/triplanarPotionForwardPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Code/Potion.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/ShaderLibrary/SurfaceInput.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/LitPotion/litPotionForwardPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.core/ShaderLibrary/API/GLCore.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/ShaderLibrary/Particles.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Shaders/SimpleLit.shader",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Shaders/LitForwardPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Shaders/SimpleLitForwardPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/ShaderLibrary/Input.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/ShaderLibrary/Lighting.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/mini_clungeons.sublime-project",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Shaders/LitMetaPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Common/VFX/CharacterToonShader.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl",
+		"/C/Users/clark/Downloads/GladiatorPhase2.cpp",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Editor/ShaderGUI/LitPotionShaderGUI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Player/Code/PersistentContainers/PlayerCombatStatsData.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/HitLag.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Camera/Code/LWRPPixelatedRenderScaleDriver.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/EventSubscribers/CameraShakeOnReceive.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Movement/ForcedMovementPrimer.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Movement/ActorMovement.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/EventSubscribers/CameraShakeOnHit.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Movement/CollisionProperties.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Common/Code/LocalParticleEffects.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Sound/FMODEmitterHandler.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/Stats/CombatStats.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Common/Code/Sensors/BoxSensor2D.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Player/Code/PlayerCombatStats.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Camera/Code/PlayerCameraFollow2D.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/EventSubscribers/FMODOnReceiveDecayEmitter.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Enemies/ScantyTestSword/ScantyTestController.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/GameState/Code/GameController.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/Attacking/CombatController.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Code/PotionBelt.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Camera/Code/CameraShake2D.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/Attacking/CC3DHook.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Enchantment/Implementations/AoeOnJump/EnchAoeOnJump.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Enchantment/Common/Code/LevelEnchantmentPool.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Common/Code/Sensors/RadialSensor2D.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Player/Code/PlayerHealth.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Player/Code/PersistentContainers/PlayerPersistentData.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Environments/ProcGen/Code/DungeonGenerator.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Player/Code/PlayerController.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Camera/Code/RoundPositionToPixel.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Camera/Code/SimpleScreenShakeHook.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/Attacking/CombatController3D.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Editor/Menu/ApplySelectedPrefabs.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/GameState/Code/GameScreenEffects.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Enchantment/Common/Code/EnchInterface/EnchEffectStorage.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Player/Code/PlayerEnchantments.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/PersistentData/PersistentFloat.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/GameEventListener.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/Combat/Code/EventSubscribers/FlickerOnDamage.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Utility/Code/VHSliceStartup.cs",
+		"/C/Users/clark/Documents/Programming/OdinDemos/Assets/Plugins/Sirenix/Demos/Attributes Overview/Scripts/AttributesOnClassesExample.cs",
+		"/C/Users/clark/Documents/Programming/OdinDemos/Assets/Plugins/Sirenix/Demos/Attributes Overview/Scripts/CustomValueDrawerExamples.cs",
+		"/C/Users/clark/Documents/Programming/OdinDemos/Assets/Plugins/Sirenix/Demos/Attributes Overview/Scripts/SuffixLabelExamples.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Utility/Effects/FMODSimpleEffectPlayer.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Enchantment/Common/Code/Implementations/EnchEditCombatStats.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Actors/Player/Code/PlayerPersistence.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Editor/TileBrushes/PrefabBrush.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Editor/TileBrushes/GameObjectBrush.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Shaders/ShadowCasterPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/LitPotion/shader_meshLitPotion.shader",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/LitPotion/LitPotionLighting.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/LitPotion/depthOnlyPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Temp/Compiled-LWG-MeshToon.shader",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/shadowCasterPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/ToonLighting.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.core/ShaderLibrary/SpaceTransforms.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/shader_meshLitPotion.shader",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/meshLitPotionForwardPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/Systems/ColorCauldron/Shaders/meshLitPotionInput.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/ShaderLibrary/Shadows.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Editor/EditorUtilities.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/Utilities/UnityLayer.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Editor/Windows/ChunkLoaderWindow.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Editor/TileBrushes/TintBrushSmooth.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/asm_Master.csproj",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/StateMachines/FiniteStateMachine.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/Utilities/ExpirationTimer.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Plugins/FMOD/EventManager.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/5-Systems/ColorCauldron/Shaders/meshLitPotionForwardPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Plugins/FMOD/FMODEventPlayableEditor.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/5-Systems/ColorCauldron/Shaders/shader_meshLitPotion.shader",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Plugins/Runtime/Sirenix/Odin Inspector/Scripts/Editor/VectorIntFormatters.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Plugins/Runtime/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/.gitignore",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/External/OdinInspector/Editor/ScriptableObjectCreator.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Editor/LightweightRenderPipelineMaterialUpgrader.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/GeneralAIController.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Editor/TempTests/InputTest.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/Utilities/UnityExtensions/AnimatorExtensions.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/Burb/BurbWanderAI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/Burb/BurbPursueAI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/Burb/BurbDiveAI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Player/Code/PlayerController.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/ScantyTestSword/ScantyTestController.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/SpearDude/SpearDudeStabAI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/SpearDude/SpearDudeWanderAI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/SpearDude/SpearDudeLungeAI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/2-Actors/Enemies/SpearDude/SpearDudePursueAI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Tests/Editmode/FSM/FiniteStateMachineUnitTests.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Tests/Editmode/FSM/StateUnitTests.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/0-Common/Input/InputMaster.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/StateMachines/State.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/StateMachines/IState.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/Code/StateMachines/SimpleStateMachine.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Editor/ShaderGUI/SimpleLitShaderGUI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/LWG/Runtime/LWG.Core.asmdef",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Editor/LWG.MangoFortress.Editor.asmdef",
+		"/C/Users/clark/Desktop/UnityToonShader-skeleton/UnityToonShader-skeleton/Assets/Toon.shader",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Editor/Unity.RenderPipelines.Lightweight.Editor.asmdef",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/ScriptableRenderPipeline/com.unity.render-pipelines.lightweight/Editor/ShaderGUI/BaseShaderGUI.cs",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/Runtime/LWG.MangoFortress.Runtime.asmdef",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/5-Systems/ColorCauldron/Shaders/depthOnlyPass.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/5-Systems/ColorCauldron/Shaders/meshLitPotionInput.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/5-Systems/ColorCauldron/Shaders/ToonLighting.hlsl",
+		"/C/Users/clark/Documents/Programming/main_game_lfs/Assets/Game/5-Systems/ColorCauldron/Shaders/meshLitPotionForwardPass.hlsl"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 109.0
+	},
+	"output.exec":
+	{
+		"height": 115.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 109.0
+	},
+	"output.variable_get":
+	{
+		"height": 115.0
+	},
+	"pinned_build_system": "",
+	"project": "assignment1lol.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"LitPotion",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"ShadowCasterPass",
+				"LWRP\\Shaders\\ShadowCasterPass.hlsl"
+			],
+			[
+				"shader_lwrp",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\shader_lwrpLitPotion.shader"
+			],
+			[
+				"Litpoti",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"triplanar",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"triplanarFor",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionForwardPass.hlsl"
+			],
+			[
+				"shader_",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\shader_lwrpLitPotion.shader"
+			],
+			[
+				"TriplanarFor",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionForwardPass.hlsl"
+			],
+			[
+				"LitPotinL",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"triplanarInput",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionInput.hlsl"
+			],
+			[
+				"shader_tripla",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"shader_triplanar",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"triplanarInpt",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionInput.hlsl"
+			],
+			[
+				"litPot",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"triplan",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"litPotionin",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionInput.hlsl"
+			],
+			[
+				"litPotion",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"triplanarpotion",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionInput.hlsl"
+			],
+			[
+				"litPotionIn",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionInput.hlsl"
+			],
+			[
+				"shader_lit",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\shader_lwrpLitPotion.shader"
+			],
+			[
+				"shader_tri",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"SimpleLit",
+				"LWRP\\Shaders\\SimpleLit.shader"
+			],
+			[
+				"litPotionFor",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionForwardPass.hlsl"
+			],
+			[
+				"shader",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\shader_lwrpLitPotion.shader"
+			],
+			[
+				"litPotionInput",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionInput.hlsl"
+			],
+			[
+				"LitPotionlight",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"LitForward",
+				"LWRP\\Shaders\\LitForwardPass.hlsl"
+			],
+			[
+				"lwrpTriplanarPo",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"Lighting.hlsl",
+				"LWRP\\ShaderLibrary\\Lighting.hlsl"
+			],
+			[
+				"SimpleLitForwar",
+				"LWRP\\Shaders\\SimpleLitForwardPass.hlsl"
+			],
+			[
+				"LitPotionForward",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionForwardPass.hlsl"
+			],
+			[
+				"Input.hlsl",
+				"LWRP\\ShaderLibrary\\Input.hlsl"
+			],
+			[
+				"triplanarPotion",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionForwardPass.hlsl"
+			],
+			[
+				"LitPotionLight",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"LitPotionin",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionInput.hlsl"
+			],
+			[
+				"LitPotionIn",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionInput.hlsl"
+			],
+			[
+				"litPotionForw",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionForwardPass.hlsl"
+			],
+			[
+				"triplanarForward",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionForwardPass.hlsl"
+			],
+			[
+				"triplanarShader",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"LitPOtionLi",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"LitpOtion",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"MetaPass",
+				"LWRP\\Shaders\\LitMetaPass.hlsl"
+			],
+			[
+				"litPotionIntp",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionInput.hlsl"
+			],
+			[
+				"LitPotionLi",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotionLighting.hlsl"
+			],
+			[
+				"Triplanar",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionInput.hlsl"
+			],
+			[
+				"ToonShader",
+				"Game\\Runtime\\Actors\\Common\\VFX\\CharacterToonShader.cs"
+			],
+			[
+				"shade_tr",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"SUblime",
+				"Project\\mini_clungeons.sublime-project"
+			],
+			[
+				"triplanarF",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionForwardPass.hlsl"
+			],
+			[
+				"triplanarInp",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\triplanarPotionInput.hlsl"
+			],
+			[
+				"Common",
+				"SrpCore\\ShaderLibrary\\Common.hlsl"
+			],
+			[
+				"SurfaceInput",
+				"LWRP\\ShaderLibrary\\SurfaceInput.hlsl"
+			],
+			[
+				"SurfaceInp",
+				"LWRP\\ShaderLibrary\\SurfaceInput.hlsl"
+			],
+			[
+				"litPotionIntpu",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionInput.hlsl"
+			],
+			[
+				"Core.hlsl",
+				"LWRP\\ShaderLibrary\\Core.hlsl"
+			],
+			[
+				"litPotionForwar",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionForwardPass.hlsl"
+			],
+			[
+				"litPotionint",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionInput.hlsl"
+			],
+			[
+				"Lighting",
+				"LWRP\\ShaderLibrary\\Lighting.hlsl"
+			],
+			[
+				"Potion",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Code\\Potion.cs"
+			],
+			[
+				"shader_t",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\TriplanarPotion\\shader_lwrpTriplanarPotion.shader"
+			],
+			[
+				"LitPotionS",
+				"Game\\Editor\\ShaderGUI\\LitPotionShaderGUI.cs"
+			],
+			[
+				"litPotionPass",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionForwardPass.hlsl"
+			],
+			[
+				"prefabB",
+				"Game\\Editor\\TileBrushes\\PrefabBrush.cs"
+			],
+			[
+				"litPotionForward",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionForwardPass.hlsl"
+			],
+			[
+				"ShadowPass",
+				"LWRP\\Shaders\\ShadowCasterPass.hlsl"
+			],
+			[
+				"litForward",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\litPotionForwardPass.hlsl"
+			],
+			[
+				"PotionGUI",
+				"Game\\Editor\\ShaderGUI\\LitPotionShaderGUI.cs"
+			],
+			[
+				"shadowCasterP",
+				"LWRP\\Shaders\\ShadowCasterPass.hlsl"
+			],
+			[
+				"simpleLot",
+				"LWRP\\Shaders\\SimpleLitForwardPass.hlsl"
+			],
+			[
+				"forward",
+				"LWRP\\Shaders\\LitForwardPass.hlsl"
+			],
+			[
+				"shader_meshLit",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\LitPotion\\shader_meshLitPotion.shader"
+			],
+			[
+				"meshLitPot",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\meshLitPotionInput.hlsl"
+			],
+			[
+				"shadowCasterPass",
+				"LWRP\\Shaders\\ShadowCasterPass.hlsl"
+			],
+			[
+				"meshLitPotionIn",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\meshLitPotionInput.hlsl"
+			],
+			[
+				"Shadows",
+				"LWRP\\ShaderLibrary\\Shadows.hlsl"
+			],
+			[
+				"shadowPass",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\shadowCasterPass.hlsl"
+			],
+			[
+				"simplelit",
+				"LWRP\\Shaders\\SimpleLitForwardPass.hlsl"
+			],
+			[
+				"ToonLighting",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\ToonLighting.hlsl"
+			],
+			[
+				"shadowpass",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\shadowCasterPass.hlsl"
+			],
+			[
+				"shader_meshLi",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\shader_meshLitPotion.shader"
+			],
+			[
+				"meshLit",
+				"Game\\Runtime\\Systems\\ColorCauldron\\Shaders\\meshLitPotionForwardPass.hlsl"
+			],
+			[
+				"Expiration",
+				"LWG\\ExpirationTimer.cs"
+			],
+			[
+				"gitignore",
+				"Project\\.gitignore"
+			],
+			[
+				"SimpleState",
+				"LWG\\Runtime\\Code\\StateMachines\\SimpleStateMachine.cs"
+			],
+			[
+				"IState",
+				"LWG\\Runtime\\Code\\StateMachines\\IState.cs"
+			],
+			[
+				"State",
+				"LWG\\Runtime\\Code\\StateMachines\\State.cs"
+			],
+			[
+				"FiniteS",
+				"LWG\\Runtime\\Code\\StateMachines\\FiniteStateMachine.cs"
+			],
+			[
+				"UnityEx",
+				"LWG\\Runtime\\Code\\Utilities\\UnityExtensions\\AnimatorExtensions.cs"
+			],
+			[
+				"InputMaster",
+				"Game\\Runtime\\0-Common\\Input\\InputMaster.cs"
+			],
+			[
+				"MangoFor.asmdef",
+				"Game\\Editor\\LWG.MangoFortress.Editor.asmdef"
+			],
+			[
+				"SimpleLitGUI",
+				"LWRP\\Editor\\ShaderGUI\\SimpleLitShaderGUI.cs"
+			],
+			[
+				"BaseShader",
+				"LWRP\\Editor\\ShaderGUI\\BaseShaderGUI.cs"
+			],
+			[
+				"SimpleLitShaderGUI",
+				"LWRP\\Editor\\ShaderGUI\\SimpleLitShaderGUI.cs"
+			],
+			[
+				"meshLitPotionInput",
+				"Game\\5-Systems\\ColorCauldron\\Shaders\\meshLitPotionInput.hlsl"
+			],
+			[
+				"ToonLight",
+				"Game\\5-Systems\\ColorCauldron\\Shaders\\ToonLighting.hlsl"
+			],
+			[
+				"meshLitPotionForwar",
+				"Game\\5-Systems\\ColorCauldron\\Shaders\\meshLitPotionForwardPass.hlsl"
+			],
+			[
+				"Lighting.",
+				"LWRP\\ShaderLibrary\\Lighting.hlsl"
+			],
+			[
+				"Corehlsl",
+				"LWRP\\ShaderLibrary\\Core.hlsl"
+			],
+			[
+				"EntityLight",
+				"SrpCore\\ShaderLibrary\\EntityLighting.hlsl"
+			],
+			[
+				"Common.hlsl",
+				"SrpCore\\ShaderLibrary\\Common.hlsl"
+			],
+			[
+				"Lighting.hsl",
+				"LWRP\\ShaderLibrary\\Lighting.hlsl"
+			],
+			[
+				"sublime",
+				"Project\\mini_clungeons.sublime-project"
+			],
+			[
+				"sublimrp",
+				"Project\\mini_clungeons.sublime-project"
+			],
+			[
+				"meshLitForward",
+				"Game\\5-Systems\\ColorCauldron\\Shaders\\meshLitPotionForwardPass.hlsl"
+			],
+			[
+				"depthOnly",
+				"Game\\5-Systems\\ColorCauldron\\Shaders\\depthOnlyPass.hlsl"
+			],
+			[
+				"sublimep",
+				"Project\\mini_clungeons.sublime-project"
+			],
+			[
+				"PBRMasterNode",
+				"Shadergraph\\Editor\\Data\\MasterNodes\\PBRMasterNode.cs"
+			],
+			[
+				"sublimeProjec",
+				"Project\\mini_clungeons.sublime-project"
+			],
+			[
+				"MainLight",
+				"LWG\\SRP\\CustomNodes\\MainLightDataNode.cs.cs"
+			],
+			[
+				"MainLightData",
+				"LWG\\SRP\\CustomNodes\\MainLightDataNode.cs.cs"
+			],
+			[
+				"FiniteState",
+				"LWG.Core\\Code\\StateMachines\\FiniteStateMachine.cs"
+			],
+			[
+				"manifes",
+				"Project\\Packages\\manifest.json"
+			],
+			[
+				"Player",
+				"Game\\2-Actors\\Player\\Code\\PlayerController.cs"
+			],
+			[
+				"PlayerInput",
+				"Game\\2-Actors\\Player\\Code\\PlayerInput.cs"
+			],
+			[
+				"PlayerCon",
+				"Game\\2-Actors\\Player\\Code\\PlayerController.cs"
+			],
+			[
+				"Inputaction",
+				"LWG.Core\\Code\\Extensions\\InputActionExtensions.cs"
+			],
+			[
+				"PLayerI",
+				"Game\\2-Actors\\Player\\Code\\PlayerInput.cs"
+			],
+			[
+				"PlayerController",
+				"Game\\2-Actors\\Player\\Code\\PlayerController.cs"
+			],
+			[
+				"PlayerCont",
+				"Game\\2-Actors\\Player\\Code\\PlayerController.cs"
+			],
+			[
+				"ColorEx",
+				"LWG.Core\\Code\\Extensions\\ColorExtensions.cs"
+			],
+			[
+				"PLayerCon",
+				"Game\\2-Actors\\Player\\Code\\PlayerController.cs"
+			],
+			[
+				"ColorExten",
+				"LWG.Core\\Code\\Extensions\\ColorExtensions.cs"
+			],
+			[
+				"PlayerInpt",
+				"Game\\2-Actors\\Player\\Code\\PlayerInput.cs"
+			],
+			[
+				"PlayeCont",
+				"Game\\2-Actors\\Player\\Code\\PlayerController.cs"
+			],
+			[
+				"FiniteStae",
+				"LWG.Core\\Code\\StateMachines\\FiniteStateMachine.cs"
+			],
+			[
+				"FiniteStateMachineUnitTest",
+				"LWG.Core.Tests\\Editmode\\FSM\\FiniteStateMachineUnitTests.cs"
+			],
+			[
+				"FiniteStateMachin",
+				"LWG.Core.Tests\\Editmode\\FSM\\FiniteStateMachineUnitTests.cs"
+			],
+			[
+				"GeneralAiCon",
+				"Game\\2-Actors\\Enemies\\GeneralAIController.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\clark\\Documents\\Programming\\main_game_lfs\\mini_clungeons.sublime-project"
+			],
+			[
+				"spook",
+				"C:\\Users\\clark\\Documents\\Programming\\spooky_main_game\\spooky_main_game.sublime-project"
+			],
+			[
+				"sc",
+				"C:\\Users\\clark\\Documents\\Programming\\rolly_boi_af\\rolly_boi_af.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
