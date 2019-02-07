@@ -12,7 +12,12 @@
 #include <unistd.h>
 #include <sys/stat.h>
  
+//==========================================
+// UTILITIES
+//==========================================
+
 #define ARRAY_ELEMS(x) (sizeof(x) / sizeof(x[0]))
+#define STREQL(x, y) (strcmp(x, y) == 0)
 
 const char* SH_CARAT = "$ ";
 const char* PS1_CARAT = "> ";
@@ -96,23 +101,49 @@ bool directory_exists(char* dirname)
 	return (stat(dirname, &sb) == 0 && S_ISDIR(sb.st_mode));
 }
 
+//==========================================
+// PROGRAM COMMANDS
+//==========================================
+
 // Echo strings that come after echo. 
 void cmd_echo(int argc, char** argv, char* line) {
 	if(argc < 2) {
-		fprintf(stderr, "Please provide a string to echo.");
+		printf("Please provide a string to echo. or options.\n");
 	    return;
 	}
 
-	// We assume echo exists in our line, because we're in the echo command. 
-	static char* cmd_echo = "echo";
-	char* echo_pos = strstr(line, cmd_echo);
+	// Iterate over argv until we don't find an option. 
+	int argv_index = 1;
+	bool keep_searching = true;
+	bool print_newline = true;
 
-	// Furthermore, we know there's at least one space after our echo because it was tokenized. 
-	char* string_pos = echo_pos + strlen(cmd_echo) + 1;
-	// Skip whitespace
-	char* final_pos = strrchr(string_pos, ' ') + 1;
-	printf("%s", final_pos);
+	// Iterate until we have found some kind of not-option or we're at the end. 
+	while(keep_searching && argv_index < argc) {
+		const char* arg = argv[argv_index];
 
+		// Search for a non-arg.
+		if(STREQL(arg, "-n")) {
+			print_newline = false;
+			argv_index++;
+		}
+		else {
+			keep_searching = false;
+		}
+
+	}
+
+	if(argv_index == argc) {
+		printf("Please provide a string to echo. only options entered.\n");
+	    return;
+	}
+
+	printf("%s", argv[argv_index++]); // Print first value. 
+
+	for(int i = argv_index; i < argc; i++)
+		printf(" %s", argv[i]); // Print other values. 
+
+	if(print_newline) 
+		printf("\n");
 }
 
 // Change the carat to the ps1 carat
@@ -267,36 +298,40 @@ void cmd_rmdir(int argc, char** argv, char* line) {
 	}
 }
 
+//==========================================
+// MAIN BOOTSTRAP
+//==========================================
+
 void run_shell(int argc, char** argv, char* line) {
 	if(argc < 1) return;
 
 	// Check arguments
 	char* command = argv[0];
-	if(strcmp(command, "echo") == 0) { 
+	if(STREQL(command, "echo")) { 
 		cmd_echo(argc, argv, line); 
 	}
-	else if(strcmp(command, "PS1") == 0) { 
+	else if(STREQL(command, "PS1")) { 
 		cmd_PS1(argc, argv, line); 
 	}
-	else if(strcmp(command, "sh") == 0) { 
+	else if(STREQL(command, "sh")) { 
 		cmd_sh(argc, argv, line); 
 	}
-	else if(strcmp(command, "cat") == 0) { 
+	else if(STREQL(command, "cat")) { 
 		cmd_cat(argc, argv, line); 
 	}
-	else if(strcmp(command, "cp") == 0) { 
+	else if(STREQL(command, "cp")) { 
 		cmd_cp(argc, argv, line); 
 	}
-	else if(strcmp(command, "rm") == 0) { 
+	else if(STREQL(command, "rm")) { 
 		cmd_rm(argc, argv, line); 
 	}
-	else if(strcmp(command, "mkdir") == 0) { 
+	else if(STREQL(command, "mkdir")) { 
 		cmd_mkdir(argc, argv, line); 
 	}
-	else if(strcmp(command, "rmdir") == 0) { 
+	else if(STREQL(command, "rmdir")) { 
 		cmd_rmdir(argc, argv, line); 
 	}
-	else if(strcmp(command, "exit") == 0) { 
+	else if(STREQL(command, "exit")) { 
 		exit(EXIT_SUCCESS);
 	}
 	else {
